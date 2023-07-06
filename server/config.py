@@ -15,10 +15,9 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# db = SQLAlchemy(app)
 # migrate = Migrate(app)
 # db.init_app(app)
-# bcrypt = Bcrypt(app)
+
 api = Api(app)
 
 def get_env_variable(name):
