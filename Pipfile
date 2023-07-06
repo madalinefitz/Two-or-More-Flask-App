@@ -16,6 +16,7 @@ flask-session = "*"
 requests = "*"
 psycopg2-binary = "*"
 flask-bcrypt = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
